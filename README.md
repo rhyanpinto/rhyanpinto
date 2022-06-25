@@ -1,4 +1,10 @@
 ## Hi, I'm Rhyan, student of Computer Science! | Olá, eu sou o Rhyan, estudante de Ciência da Computação!👋
+
+- 🔭 I’m currently working on college projects.
+- 🌱 I’m currently learning C, React, NodeJS and Java
+- 🤔 I’m looking for help with React and Cybersecurity
+##
+
 <div align="center">
   <a href="https://github.com/rhyanpinto">
   <img height="148em" src="https://github-readme-stats.vercel.app/api?username=rhyanpinto&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
@@ -28,10 +34,7 @@
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ... |
-- 🌱 I’m currently learning Computer Science in general. | Ciência da computação de uma forma geral.
 - 👯 I’m looking to collaborate on ... |
-- 🤔 I’m looking for help with ... |
 - 💬 Ask me about ... |
 - 😄 Pronouns: he/his | ele/dele
 - ⚡ Fun fact: ... |
