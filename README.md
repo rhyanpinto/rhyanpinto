@@ -1,8 +1,8 @@
 ## Hi, I'm Rhyan, student of Computer Science! | Olá, eu sou o Rhyan, estudante de Ciência da Computação!👋
 
 - 🔭 I’m currently working on college projects.
-- 🌱 I’m currently learning C, React, NodeJS and TypeScript
-- 🤔 I’m looking for help with React and Cybersecurity
+- 🌱 I’m currently Cybersecurity and Python
+- 🤔 I’m looking for help with Cloud
 ##
 
 <div align="center">
