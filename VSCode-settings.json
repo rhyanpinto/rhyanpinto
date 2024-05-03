@@ -1,0 +1,258 @@
+{
+    // General
+    "breadcrumbs.enabled": false,
+    "update.mode": "start",
+    "update.showReleaseNotes": false,
+    "window.titleBarStyle": "custom",
+    "window.customTitleBarVisibility": "windowed",
+    "window.commandCenter": true,
+    "files.associations": {
+        ".env.*": "dotenv",
+        ".prettierrc": "json",
+        "*.css": "css"
+    },
+    "extensions.ignoreRecommendations": true,
+
+    // Workbench
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.list.smoothScrolling": true,
+    "workbench.iconTheme": "symbols",
+    "workbench.colorTheme": "Vesper ++",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.editor.labelFormat": "short",
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.editor.editorActionsLocation": "default",
+    "workbench.activityBar.location": "hidden",
+    "workbench.statusBar.visible": true,
+    "workbench.layoutControl.enabled": false,  
+
+    // Editor
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [80, 120],
+    "editor.tabSize": 2,
+    "editor.suggestSelection": "first",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    "editor.parameterHints.enabled": true,
+    "editor.fontFamily": "JetBrains Mono",
+    "window.zoomLevel": 0,
+    "editor.fontLigatures": true,
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.accessibilitySupport": "off",
+    "editor.semanticHighlighting.enabled": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical": "auto",
+    "editor.renderLineHighlight": "gutter",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "editor.language.colorizedBracketPairs": [
+        ["[", "]"],
+        ["(", ")"],
+        ["{", "}"],
+        ["<", "</"],
+        ["<", "/>"],
+        ["<", ">"]
+    ],
+
+    // Explorer
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.sortOrder": "foldersNestsFiles",
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "package.json": ".eslint*, .prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*, .yarn*, yarn.lock",
+        "tailwind.config.js": "tailwind.config*, postcss.config*",
+        "next.config.js": "next*",
+        ".env.local": ".env*",
+        ".env": ".env*"
+    },
+
+    // Terminal
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.external.windowsExec": "wt",
+    //"terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.showExitAlert": false,
+    "terminal.integrated.gpuAcceleration": "off",
+    "terminal.integrated.env.windows": {},
+
+    // Security
+    //"security.workspace.trust.banner": "never",
+    //"security.workspace.trust.startupPrompt": "never",
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    //"security.workspace.trust.enabled": false,
+    "security.promptForLocalFileProtocolHandling": false,
+
+    // Extensions settings
+    "apc.activityBar": {
+        "position": "bottom",
+        "hideSettings": true,
+        "size": 48,
+        "itemMargin": 8,
+        "itemSize": 32
+    },
+    "apc.font.family": "Inter",
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset",
+        "titleBarOverlay": {
+        "color": "rgba(0,0,0,0)",
+        // Color of the window controls matching my theme
+        "symbolColor": "#f6b26b",
+        "height": 42,
+        "opacity": 0
+        },
+        "frame": false
+    },
+    "apc.header": {
+        "height": 36
+    },
+    "apc.listRow": {
+        "height": 24
+    },
+    "apc.stylesheet": {
+        // Draggable area
+        "body::after": "content:'';position:absolute;top:0;left:0;width:100%;height:10px;z-index:9999;-webkit-app-region: drag;",
+        ".sidebar>.title>.title-label": "opacity: 0;flex: 0!important;padding: 0!important;",
+        ".sidebar>.title": "padding: 0px 8px!important",
+        ".nosidebar .inline-tabs-placeholder": "width: 75px",
+        ".tabs-and-actions-container": "max-width: calc(100% - 115px);",
+        ".pane-header": "padding: 0 8px",
+        ".pane-body": "padding: 0px",
+        ".split-view-view:first-child .pane-header": "display: none !important;",
+        ".monaco-list-row": "border-radius: 4px;",
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
+        ".window-appicon": "display: none;"
+    },
+    "symbols.hidesExplorerArrows": false,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false,
+        "yaml": false
+    },
+    "git.suggestSmartCommit": false,
+    "git.enableSmartCommit": true,
+    "git.openRepositoryInParentFolders": "always",
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "symbols.files.associations": {
+        "*.module.ts": "nest",
+        "*.guard.ts": "typescript",
+        "*.spec.ts": "ts-test",
+        "*.e2e-spec.ts": "ts-test",
+        "vitest.config.e2e.ts": "vite",
+        ".env.example": "gear"
+    },
+    "cSpell.language": "en,pt,pt_BR",
+    "cSpell.enableFiletypes": [
+        "!asciidoc",
+        "!c",
+        "!cpp",
+        "!csharp",
+        "!go",
+        "!handlebars",
+        "!haskell",
+        "!jade",
+        "!java",
+        "!latex",
+        "!php",
+        "!pug",
+        "!python",
+        "!restructuredtext",
+        "!rust",
+        "!scala",
+        "!scss"
+    ],
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "python": "python -u",
+        "ruby": "ruby",
+        "go": "go run",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "csharp": "scriptcs",
+        "typescript": "npx sucrase-node",
+        "clojure": "lein exec",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+    },
+    "code-runner.runInTerminal": true,
+    "console-ninja.featureSet": "Community",
+    
+    
+    // Language specific settings
+    "javascript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.suggest.autoImports": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.tsserver.log": "off",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma",
+        "editor.formatOnSave": true
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "[powershell]": {
+        "editor.defaultFormatter": "ms-vscode.powershell"
+    },
+    "color-highlight.languages": [
+        "*"
+    ],
+    "tailwindCSS.experimental.classRegex": [
+        ["tv\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+    ],
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "graphql"
+    ],
+    "js/ts.implicitProjectConfig.module": "CommonJS",
+    "files.exclude": {
+        "**\/CVS": true,
+        "**\/.DS_Store": true,
+        "**\/.hg": true,
+        "**\/.svn": true,
+        "**\/.git": true,
+        ".vscode": true
+        // "node_modules": true
+    },
+    "eslint.nodeEnv": "",
+}
