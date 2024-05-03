@@ -19,7 +19,7 @@
   <img align="center" alt="Rhyan-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
   <img align="center" alt="Rhyan-C" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
   <img align="center" alt="Rhyan-Python" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
-  <img align="right" alt="Rhyan-pic" height="150" style="border-radius:50px;" src="https://cdn.discordapp.com/attachments/914202655746822224/987015474372030484/download20220604122354.png" />
+  <img align="right" alt="Rhyan-pic" height="150" style="border-radius:50px;" src="https://cdn.discordapp.com/attachments/914202655746822224/987015474372030484/download20220604122354.png?ex=6635024a&is=6633b0ca&hm=914ac5728b5812ae23b9ca8eb0590533ecca426231877de4969bff87a2608971&" />
           
 </div>
   
